@@ -20,7 +20,7 @@
 Clone the project
 
 ```bash
-https://github.com/Daniil-l17/music-listening-apps.git](https://github.com/Daniil-l17/Staff.git)
+https://github.com/Daniil-l17/Staff.git
 ```
 
 Install dependencies
