@@ -28,16 +28,14 @@ export const Auth = ({ url }: { url: string }) => {
   });
 
   useEffect(() => {
-    if(token){
-      navigate('/',{replace:true})
-    }
-  },[token])
-
-  useEffect(() => {
-    if (isAuthUser) {
+    if (isAuthUser || token) {
       navigate('/staff',{replace:true});
     }
-  }, [isAuthUser]);
+  }, [isAuthUser,token]);
+
+
+
+
 
   const onSubmit: SubmitHandler<dto> = async data => {
     setLoading(true);
