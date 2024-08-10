@@ -15,33 +15,34 @@
 - Обновлять персональные данные о сотрудника
 
 
-## Run Locally
+## Запускается локально
 
-Clone the project
+
+Клонировать проект
 
 ```bash
 https://github.com/Daniil-l17/Staff.git
 ```
 
-Install dependencies
+Устанавливать зависимости
 
 ```bash
 yarn install
 ```
 
-Start the app in dev
+Запустите приложение в dev
 
 ```bash
 yarn dev
 ```
 
-Start the app in production
+Запустите приложение в рабочем режиме
 
 ```bash
 yarn build
 ```
 
-then
+Затем
 
 ```bash
 yarn start
